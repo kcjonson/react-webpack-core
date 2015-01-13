@@ -1,0 +1,26 @@
+{
+	"name": "webpack-basic",
+	"version": "0.0.0",
+	"description": "A basic webpack example",
+	"author": "Kevin Jonson <kcjonson@gmail.com>",
+	"dependencies": {
+		"envify": "*",
+		"react": "*",
+		"express": "*",
+		"node-jsx": "*",
+		"superagent": "*"
+	},
+	"devDependencies": {
+		"webpack": "*",
+		"css-loader": "*",
+		"style-loader": "*",
+		"less-loader": "*",
+		"jsx-loader": "*",
+		"nodemon": "*"
+	}, 
+	"scripts": {
+		"watch": "webpack --progress --colors --watch",
+		"start": "npm run watch & nodemon server.js"
+	}
+
+}
