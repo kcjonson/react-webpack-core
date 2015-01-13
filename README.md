@@ -20,6 +20,6 @@ Extremely mimimal app demonstrating:
 
 **http://localhost:8080/** - React component rendered server side and delivered with Express.
 
-**http://localhost:8080/Base.html** - React component rendered client side from raw html that fetches its own data lazily.
+**http://localhost:8080/Base.html** - React component rendered client side from raw html that fetches its own data lazily.  Base.html is just served staticly through Express and has zero backend requirements.
 
 **http://localhost:8080/api/base** - Data endpoint
